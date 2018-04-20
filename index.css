@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Bevan');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+
+
+html { font-size:100%; 
+} 
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
+*/
+
+h1,
+.h1 {
+  
+  text-align: center;
+  font-size: 5rem;
+  color: #F8F8F8;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+#hiddenDIV {
+
+display:none;
+}
+
+.about_me { padding-top: 40px;
+            padding-left: 50px;
+            text-align: center;
+}
+
+
+#button-primary {
+  padding-right: 40px;
+}
+
+
+.description {
+  padding-bottom: 20px;
+}
+
+
+
+
+.section {
+  padding-bottom: 100px;
+}
+
+
+h6{
+  color:black;
+}
+
+h3 {
+  color:black;
+}
+
+h4 {
+  color:black;
+
+}
+
+p {
+  color:black;
+}
+
+#myself {
+  border-radius:  50%;
+
+
+}
+
+.contact_description {
+  text-align: center;
+  padding-bottom: 50px;
+  font-style: italic;
+  font-size: 100%;
+}
+
+.btn {
+  align-content: center;
+
+}
+
+img { max-width: 100%;
+ }
+
+
+
+
+@media only screen and (max-width:750px): {
+  .img-circular{
+    padding-left: 250px;
+    padding-right: 250px;
+    
+  }
+
+  h1 {
+    text-align: center;
+  }
+} 
+
+
+
+@media (min-device-width:500px) {
+    img[data-src-400px] {
+        content: attr(data-src-400px, url);
+        align-content: center;
+    }
+    h1 {
+      text-align: center;
+    }
+} 
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+
+    h1{
+      text-align: center;
+    }
+}
+
+@media (min-device-width:100px) {
+    h1{
+      text-align: center;
+    }
+
+  }
+
+
+@media (min-device-width:800px) {
+    #myself{
+      align-content: center;
+
+    }
+
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-device-width:600px) {
+    #myself{
+      align-content: center;
+    
+    }
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+}
+
+
+h1 {
+    font-family: 'Pontano Sans';
+    color:black;
+    padding-bottom: 50px;
+    margin:0;
+    margin-bottom:8px;
+    margin-top:8px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Pontano Sans';
+    color:black;
+    padding:0;
+    margin:0;
+    margin-top:16px;
+}
+
+h3 {
+  color:black;
+}

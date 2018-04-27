@@ -1,0 +1,2 @@
+export SENDGRID_API_KEY = "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"
+export DEBUG='True'

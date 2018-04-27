@@ -54,22 +54,11 @@ display:none;
 }
 
 
-h6{
+p,h6,h3,h4{
   color:black;
 }
 
-h3 {
-  color:black;
-}
 
-h4 {
-  color:black;
-
-}
-
-p {
-  color:black;
-}
 
 #myself {
   border-radius:  50%;
@@ -93,98 +82,16 @@ img { max-width: 100%;
  }
 
 
-
-
-@media only screen and (max-width:750px): {
+@media only screen and (max-width:700px) {
   .img-circular{
-    padding-left: 250px;
-    padding-right: 250px;
+   flex-wrap:flex;
+   padding-left:125px;
+   padding-right: 125px;
     
   }
 
-  h1 {
+  h1,h3,h4 {
     text-align: center;
   }
+
 } 
-
-
-
-@media (min-device-width:500px) {
-    img[data-src-400px] {
-        content: attr(data-src-400px, url);
-        align-content: center;
-    }
-    h1 {
-      text-align: center;
-    }
-} 
-
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-
-    h1{
-      text-align: center;
-    }
-}
-
-@media (min-device-width:100px) {
-    h1{
-      text-align: center;
-    }
-
-  }
-
-
-@media (min-device-width:800px) {
-    #myself{
-      align-content: center;
-
-    }
-
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
-}
-
-@media (min-device-width:600px) {
-    #myself{
-      align-content: center;
-    
-    }
-
-
-@media (min-width: 768px) {
-    h1 {
-        font-size: 48px;
-        text-align: center;
-    }
-    
-    h2 {
-        font-size: 32px;
-    }
-}
-
-
-h1 {
-    font-family: 'Pontano Sans';
-    color:black;
-    padding-bottom: 50px;
-    margin:0;
-    margin-bottom:8px;
-    margin-top:8px;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Pontano Sans';
-    color:black;
-    padding:0;
-    margin:0;
-    margin-top:16px;
-}
-
-h3 {
-  color:black;
-}
